@@ -1,6 +1,10 @@
 import crypto from "crypto";
 import convert from "color-convert";
 
+/**
+ * Generates a random color in hex format
+ * @returns A random color in hex format
+ */
 export function generateColor(): string {
   //we want ideal distribution of colors
   //so we use crypto.randomInt
