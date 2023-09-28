@@ -4,6 +4,10 @@ import { app } from "./app";
 //connects to the database
 import "./util/connectDB";
 
+// API routes
+import api from "./api/routes";
+app.use("/api", api);
+
 import path from "path";
 
 app.get("/", (req, res) => {
