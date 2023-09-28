@@ -1,6 +1,9 @@
 //starts a simple server
 import { app } from "./app";
 
+//connects to the database
+import "./util/connectDB";
+
 import path from "path";
 
 app.get("/", (req, res) => {
