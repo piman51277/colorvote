@@ -1,3 +1,2 @@
 *.env
 web/assets/*.js
-web/assets/*.css
