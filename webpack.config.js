@@ -26,5 +26,5 @@ module.exports = {
   cache: {
     type: "filesystem",
   },
-  mode: "development",
+  mode: "production",
 };
