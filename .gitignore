@@ -7,3 +7,4 @@ prod.env
 dev.env
 
 web/assets/bundle.js
+web/assets/bundle.js.map
